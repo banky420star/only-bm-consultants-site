@@ -138,3 +138,13 @@ body.intro-lock{overflow:hidden}
 @media (prefers-reduced-motion:reduce){
   .intro-kicker,.intro-only span,.intro-b,.intro-amp,.intro-m,.intro-line span,.intro-meta{animation:none;opacity:1;transform:none}
 }
+
+/* INTRO REVEAL — SLOW PRESTIGE TIMING */
+.intro{transition:opacity 1s ease,visibility 1s ease}
+.intro-kicker{animation:introFade .75s ease .4s forwards}
+.intro-only span{animation:riseName 1.15s cubic-bezier(.22,.9,.24,1) .75s forwards}
+.intro-b{animation:riseName 1.05s cubic-bezier(.22,.9,.24,1) 1.55s forwards}
+.intro-amp{animation:riseName 1.05s cubic-bezier(.22,.9,.24,1) 1.82s forwards}
+.intro-m{animation:riseName 1.15s cubic-bezier(.22,.9,.24,1) 2.08s forwards}
+.intro-line span{animation:drawLine 1.35s cubic-bezier(.22,.9,.24,1) 2.55s forwards}
+.intro-meta{animation:introFade .8s ease 3.35s forwards}
