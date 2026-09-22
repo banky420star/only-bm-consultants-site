@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://only-bm-consultants.netlify.app/sitemap.xml
